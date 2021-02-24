@@ -5,23 +5,42 @@
     background: #B68973;
 }
 
+.banner-wrap{
+    height: 600px;
+    margin-top: 50px;
+}
 .banner{
-    background-image: url('http://localhost/JasaMakeup/assets/prewedding/banner.jpg');   
-    
-}
-
-.header-banner {
-    background-image: url('http://localhost/JasaMakeup/assets/prewedding/banner.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-width: 100%;
-height: 856px;
-
-}
-
-.header-banner h1{
+    text-align: center;
     color: white;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url(../assets/prewedding/banner-bg.png);   
+    width: 100%;
+    background-size: 100%;
+    height: 400px;
 }
+.btn-atas{
+    margin-top: 200px;
+    position: relative;
+    right: 350px;
+    bottom: 40px;
+}
+.btn{
+    background-color: #B68973;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .banner h1{
+        position: relative;
+        bottom: 140px;
+        left: 50px;
+    }
+    .banner button{
+       
+       position: relative;
+       bottom: 180px;
+       right: 180px;
+    }
+  }
