@@ -44,3 +44,51 @@
        right: 180px;
     }
   }
+
+.card-product {
+    /* background-color: #B68973; */
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5rem;
+}
+
+.card-image img{
+    width: 100%;
+    height: 220px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+
+.card {
+    background-color: #B68973;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-subtitle {
+    text-align: center;
+}
+
+.img-square-wrapper {
+    width: 100%;
+}
+
+.img-our-package {
+    width: 400px;
+    height: 280px;
+}
+
